@@ -4,5 +4,17 @@
     "params": {
       "command": "calc.exe"
     }
+  },
+  "<ctrl>+a+d": {
+    "action": "show_message",
+    "params": {
+      "message": "test"
+    }
+  },
+  "<alt>+a+c": {
+    "action": "open_url",
+    "params": {
+      "url": "https://github.com/youngjin0305/hotkey"
+    }
   }
 }

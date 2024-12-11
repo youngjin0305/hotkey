@@ -1,5 +1,3 @@
-# actions.py
-
 import subprocess
 import webbrowser
 
@@ -12,7 +10,6 @@ def run_program_action(gui, params):
     if command:
         try:
             subprocess.Popen(command, shell=True)
-            gui.show_message(f"명령어 '{command}'가 실행되었습니다.")
         except Exception as e:
             gui.show_message(f"명령어 실행 실패: {e}")
     else:

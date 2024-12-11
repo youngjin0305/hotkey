@@ -13,7 +13,8 @@ class HotkeyManager:
     def load_hotkeys(self):
         if os.path.exists(self.config_file):
             with open(self.config_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                hotkeys = json.load(f)
+                return hotkeys
         else:
             return {}
 

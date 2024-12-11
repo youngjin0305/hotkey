@@ -1,5 +1,3 @@
-# gui.py
-
 import tkinter as tk
 from tkinter import messagebox, Toplevel, ttk
 
@@ -8,6 +6,7 @@ class HotkeyGUI:
         self.root = root
         self.hotkey_manager = hotkey_manager
         self.root.title("단축키 설정 프로그램")
+        self.root.geometry("400x400")
 
         # 현재 등록된 핫키 목록 표시용
         self.label = tk.Label(root, text="현재 등록된 단축키 목록:", font=("Arial", 14))

@@ -1,5 +1,3 @@
-# main.py
-
 import tkinter as tk
 from gui import HotkeyGUI
 from hotkey_manager import HotkeyManager
