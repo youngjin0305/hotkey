@@ -1,0 +1,8 @@
+{
+  "<ctrl>+a+c": {
+    "action": "run_program",
+    "params": {
+      "command": "calc.exe"
+    }
+  }
+}
